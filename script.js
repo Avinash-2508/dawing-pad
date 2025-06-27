@@ -137,7 +137,6 @@
                 delete canvas.dataset.lastContent;
             });
             
-            // Save drawing
             saveDrawingBtn.addEventListener('click', function() {
                 const link = document.createElement('a');
                 link.download = 'drawing.png';
