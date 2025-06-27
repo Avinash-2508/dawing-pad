@@ -95,7 +95,6 @@
                 }
             }
             
-            // Get position accounting for touch events
             function getPosition(e) {
                 const rect = canvas.getBoundingClientRect();
                 let x, y;
