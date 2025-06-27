@@ -131,7 +131,6 @@
                 stopDrawing();
             });
             
-            // Clear canvas
             clearCanvasBtn.addEventListener('click', function() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
                 delete canvas.dataset.hasContent;
