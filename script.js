@@ -87,7 +87,6 @@
                 
                 [lastX, lastY] = [x, y];
                 
-                // Mark canvas as having content
                 canvas.dataset.hasContent = 'true';
             }
             
