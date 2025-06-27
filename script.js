@@ -64,7 +64,7 @@
                 updateBrushPreview();
             });
             
-            // Drawing functions
+            // 
             function startDrawing(e) {
                 isDrawing = true;
                 [lastX, lastY] = getPosition(e);
