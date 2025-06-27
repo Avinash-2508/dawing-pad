@@ -114,8 +114,8 @@
             canvas.addEventListener('mousemove', draw);
             canvas.addEventListener('mouseup', stopDrawing);
             canvas.addEventListener('mouseout', stopDrawing);
-            
-            // Touch events for mobile
+
+
             canvas.addEventListener('touchstart', function(e) {
                 e.preventDefault();
                 startDrawing(e);
