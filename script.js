@@ -41,7 +41,6 @@
             
             updateBrushPreview();
             
-            // Color selection
             colorOptions.forEach(option => {
                 option.addEventListener('click', function() {
                     colorOptions.forEach(opt => opt.classList.remove('active'));
