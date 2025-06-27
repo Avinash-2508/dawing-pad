@@ -24,7 +24,6 @@
                 }
             }
             
-            // Initialize canvas
             resizeCanvas();
             window.addEventListener('resize', resizeCanvas);
             
