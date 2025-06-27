@@ -9,7 +9,7 @@
             const clearCanvasBtn = document.getElementById('clearCanvas');
             const saveDrawingBtn = document.getElementById('saveDrawing');
             
-            // Set canvas size
+            // canvas size
             function resizeCanvas() {
                 const container = canvas.parentElement;
                 canvas.width = container.clientWidth;
