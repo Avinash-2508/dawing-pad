@@ -64,7 +64,6 @@
                 updateBrushPreview();
             });
             
-            // 
             function startDrawing(e) {
                 isDrawing = true;
                 [lastX, lastY] = getPosition(e);
@@ -93,7 +92,6 @@
             function stopDrawing() {
                 isDrawing = false;
                 
-                // Save current canvas state
                 if (canvas.dataset.hasContent === 'true') {
                     canvas.dataset.lastContent = canvas.toDataURL();
                 }
