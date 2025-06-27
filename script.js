@@ -27,7 +27,6 @@
             resizeCanvas();
             window.addEventListener('resize', resizeCanvas);
             
-            // Drawing state
             let isDrawing = false;
             let lastX = 0;
             let lastY = 0;
