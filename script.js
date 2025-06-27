@@ -33,7 +33,6 @@
             let currentColor = '#000000';
             let currentSize = 5;
             
-            // Update brush preview
             function updateBrushPreview() {
                 brushPreview.style.width = `${currentSize}px`;
                 brushPreview.style.height = `${currentSize}px`;
