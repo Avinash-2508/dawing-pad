@@ -39,7 +39,6 @@
                 brushPreview.style.backgroundColor = currentColor;
             }
             
-            // Set initial brush preview
             updateBrushPreview();
             
             // Color selection
