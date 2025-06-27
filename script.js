@@ -15,7 +15,6 @@
                 canvas.width = container.clientWidth;
                 canvas.height = container.clientHeight;
                 
-                // Redraw existing content if any
                 if (canvas.dataset.hasContent === 'true') {
                     const img = new Image();
                     img.src = canvas.dataset.lastContent;
