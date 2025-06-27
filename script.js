@@ -57,7 +57,6 @@
                 updateBrushPreview();
             });
             
-            // Brush size adjustment
             brushSizeInput.addEventListener('input', function() {
                 currentSize = this.value;
                 updateBrushPreview();
