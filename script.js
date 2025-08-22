@@ -15,8 +15,8 @@
                 canvas.height = container.clientHeight
                 
                 if (canvas.dataset.hasContent === 'true') {
-                    const img = new Image();
-                    img.src = canvas.dataset.lastContent;
+                    const img = new Image()
+                    img.src = canvas.dataset.lastContent
                     img.onload = function() {
                         ctx.drawImage(img, 0, 0)
                     };
