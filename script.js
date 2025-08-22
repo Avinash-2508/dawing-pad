@@ -33,9 +33,9 @@
             let currentSize = 5;
             
             function updateBrushPreview() {
-                brushPreview.style.width = `${currentSize}px`;
-                brushPreview.style.height = `${currentSize}px`;
-                brushPreview.style.backgroundColor = currentColor;
+                brushPreview.style.width = `${currentSize}px`
+                brushPreview.style.height = `${currentSize}px`
+                brushPreview.style.backgroundColor = currentColor
             }
             
             updateBrushPreview();
