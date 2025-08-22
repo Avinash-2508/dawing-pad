@@ -10,9 +10,9 @@
             const saveDrawingBtn = document.getElementById('saveDrawing');
             
             function resizeCanvas() {
-                const container = canvas.parentElement;
-                canvas.width = container.clientWidth;
-                canvas.height = container.clientHeight;
+                const container = canvas.parentElement
+                canvas.width = container.clientWidth
+                canvas.height = container.clientHeight
                 
                 if (canvas.dataset.hasContent === 'true') {
                     const img = new Image();
