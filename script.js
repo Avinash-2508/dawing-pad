@@ -1,13 +1,13 @@
 
         document.addEventListener('DOMContentLoaded', function() {
-            const canvas = document.getElementById('drawingCanvas');
+            const canvas = document.getElementById('drawingCanvas')
             const ctx = canvas.getContext('2d')
             const colorOptions = document.querySelectorAll('.color-option')
             const customColor = document.getElementById('customColor')
             const brushSizeInput = document.getElementById('brushSize')
             const brushPreview = document.getElementById('brushPreview')
             const clearCanvasBtn = document.getElementById('clearCanvas')
-            const saveDrawingBtn = document.getElementById('saveDrawing');
+            const saveDrawingBtn = document.getElementById('saveDrawing')
             
             function resizeCanvas() {
                 const container = canvas.parentElement
@@ -143,6 +143,7 @@
                 link.click();
             });
         });
+
 
 
 
