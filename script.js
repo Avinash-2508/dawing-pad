@@ -29,7 +29,7 @@
             let isDrawing = false;
             let lastX = 0;
             let lastY = 0;
-            let currentColor = '#000000';
+            let currentColor = '#000000'
             let currentSize = 5;
             
             function updateBrushPreview() {
