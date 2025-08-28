@@ -47,8 +47,8 @@
                     currentColor = this.dataset.color;
                     customColor.value = currentColor;
                     updateBrushPreview();
-                });
-            });
+                })
+            })
             
             customColor.addEventListener('input', function() {
                 currentColor = this.value;
