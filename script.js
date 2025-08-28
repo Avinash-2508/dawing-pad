@@ -23,7 +23,7 @@
                 }
             }
             
-            resizeCanvas();
+            resizeCanvas()
             window.addEventListener('resize', resizeCanvas);
             
             let isDrawing = false;
