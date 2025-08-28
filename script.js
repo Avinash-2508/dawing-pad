@@ -24,7 +24,7 @@
             }
             
             resizeCanvas()
-            window.addEventListener('resize', resizeCanvas);
+            window.addEventListener('resize', resizeCanvas)
             
             let isDrawing = false
             let lastX = 0
@@ -43,9 +43,9 @@
             colorOptions.forEach(option => {
                 option.addEventListener('click', function() {
                     colorOptions.forEach(opt => opt.classList.remove('active'));
-                    this.classList.add('active');
+                    this.classList.add('active')
                     currentColor = this.dataset.color;
-                    customColor.value = currentColor;
+                    customColor.value = currentColor
                     updateBrushPreview();
                 })
             })
