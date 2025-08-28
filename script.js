@@ -51,8 +51,8 @@
             })
             
             customColor.addEventListener('input', function() {
-                currentColor = this.value;
-                colorOptions.forEach(opt => opt.classList.remove('active'));
+                currentColor = this.value
+                colorOptions.forEach(opt => opt.classList.remove('active'))
                 updateBrushPreview();
             });
             
