@@ -62,8 +62,8 @@
             });
             
             function startDrawing(e) {
-                isDrawing = true;
-                [lastX, lastY] = getPosition(e);
+                isDrawing = true
+                [lastX, lastY] = getPosition(e)
             }
             
             function draw(e) {
