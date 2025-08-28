@@ -28,9 +28,9 @@
             
             let isDrawing = false
             let lastX = 0
-            let lastY = 0;
+            let lastY = 0
             let currentColor = '#000000'
-            let currentSize = 5;
+            let currentSize = 5
             
             function updateBrushPreview() {
                 brushPreview.style.width = `${currentSize}px`
