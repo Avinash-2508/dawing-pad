@@ -53,12 +53,12 @@
             customColor.addEventListener('input', function() {
                 currentColor = this.value
                 colorOptions.forEach(opt => opt.classList.remove('active'))
-                updateBrushPreview();
+                updateBrushPreview()
             });
             
             brushSizeInput.addEventListener('input', function() {
-                currentSize = this.value;
-                updateBrushPreview();
+                currentSize = this.value
+                updateBrushPreview()
             });
             
             function startDrawing(e) {
