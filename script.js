@@ -42,8 +42,8 @@
             
             colorOptions.forEach(option => {
                 option.addEventListener('click', function() {
-                    colorOptions.forEach(opt => opt.classList.remove('active'));
-                    this.classList.add('active')
+                    colorOptions.forEach(opt => opt.classList.remove('active'))
+                     this.classList.add('active')
                     currentColor = this.dataset.color
                     customColor.value = currentColor
                     updateBrushPreview()
