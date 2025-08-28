@@ -19,7 +19,7 @@
                     img.src = canvas.dataset.lastContent
                     img.onload = function() {
                         ctx.drawImage(img, 0, 0)
-                    };
+                    }
                 }
             }
             
@@ -38,7 +38,7 @@
                 brushPreview.style.backgroundColor = currentColor
             }
             
-            updateBrushPreview();
+            updateBrushPreview()
             
             colorOptions.forEach(option => {
                 option.addEventListener('click', function() {
